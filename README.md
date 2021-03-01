@@ -5,5 +5,6 @@
 #### - HTML
 #### - CSS 
 #### - JavaScript
+#### - Fancybox
 
 
