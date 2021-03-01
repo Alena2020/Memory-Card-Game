@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Card Game</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="memory-game-title">
+    <h1>Memory  Card  Game</h1>
+    <img src="img/lotus.png" alt="lotus" class="title-image">
+  </section>
+  <!-- /.memory-game-title -->
+  <section class="memory-game">
+    <div class="memory-card" data-framework="flower-1">
+      <img src="img/flower-1.png" alt="flower-1" class="font-face">
+      <img src="img/lotus.png" alt="lotus" class="back-face">
+    </div>
+    <!-- /.memory-card -->
+    <div class="memory-card" data-framework="flower-1">
+      <img src="img/flower-1.png" alt="flower-1" class="font-face">
+      <img src="img/lotus.png" alt="lotus" class="back-face">
+    </div>
+    <!-- /.memory-card -->
+     <div class="memory-card" data-framework="flower-2">
+      <img src="img/flower-2.png" alt="flower-2" class="font-face">
+      <img src="img/lotus.png" alt="lotus" class="back-face">
+    </div>
+    <!-- /.memory-card -->
+     <div class="memory-card" data-framework="flower-2">
+      <img src="img/flower-2.png" alt="flower-2" class="font-face">
+      <img src="img/lotus.png" alt="lotus" class="back-face">
+    </div>
+    <!-- /.memory-card -->
+     <div class="memory-card" data-framework="flower-3">
+      <img src="img/flower-3.png" alt="flower-3" class="font-face">
+      <img src="img/lotus.png" alt="lotus" class="back-face">
+    </div>
+    <!-- /.memory-card -->
+     <div class="memory-card" data-framework="flower-3">
+      <img src="img/flower-3.png" alt="flower-3" class="font-face">
+      <img src="img/lotus.png" alt="lotus" class="back-face">
+    </div>
+    <!-- /.memory-card -->
+     <div class="memory-card" data-framework="flower-4">
+      <img src="img/flower-4.png" alt="flower-4" class="font-face">
+      <img src="img/lotus.png" alt="lotus" class="back-face">
+    </div>
+    <!-- /.memory-card -->
+     <div class="memory-card" data-framework="flower-4">
+      <img src="img/flower-4.png" alt="flower-4" class="font-face">
+      <img src="img/lotus.png" alt="lotus" class="back-face">
+    </div>
+    <!-- /.memory-card -->
+     <div class="memory-card" data-framework="flower-5">
+      <img src="img/flower-5.png" alt="flower-5" class="font-face">
+      <img src="img/lotus.png" alt="lotus" class="back-face">
+    </div>
+    <!-- /.memory-card -->
+     <div class="memory-card" data-framework="flower-5">
+      <img src="img/flower-5.png" alt="flower-5" class="font-face">
+      <img src="img/lotus.png" alt="lotus" class="back-face">
+    </div>
+    <!-- /.memory-card -->
+     <div class="memory-card" data-framework="flower-6">
+      <img src="img/flower-6.png" alt="flower-6" class="font-face">
+      <img src="img/lotus.png" alt="lotus" class="back-face">
+    </div>
+    <!-- /.memory-card -->
+     <div class="memory-card" data-framework="flower-6">
+      <img src="img/flower-6.png" alt="flower-6" class="font-face">
+      <img src="img/lotus.png" alt="lotus" class="back-face">
+    </div>
+    <!-- /.memory-card -->
+  </section>
+  <!-- /.memory-game -->
+  <section class="memory-game-menu">
+    <a href="">reset</a> 
+    <a data-fancybox data-src="#trueModal" data-modal="true" href="javascript:;" class="btn btn-primary"> <img src="img/lotus.png" class="menu-image" alt="lotus"></a>     
+    <audio src="music.mp3" autoplay="autoplay"></audio>
+    <button class="sound" onclick="soundClick()">music</button>
+  </section>
+  <!-- /.memory-game-menu -->
+
+
+ <div style="display: none;max-width:600px;" id="trueModal">
+          <h2>Dear friend!</h2>
+          <p>Everyone sees the world in one’s own way.</p>
+          <p>Everyone is the creator of one’s own fate.</p>
+          <p>Follow your heart.</p>
+          <p>Live without regrets.</p>
+          <p>Dreams come true!</p>
+          <p><button data-fancybox-close class="btn">Close me</button></p>
+        </div>
+      </div>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
