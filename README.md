@@ -1,7 +1,6 @@
 # Memory-Card-Game - yчебный проект 
-### Выполнила проект: Алёна
 
-## Технологии:
+## Technologies:
 #### - HTML
 #### - CSS 
 #### - JavaScript
