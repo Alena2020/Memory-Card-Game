@@ -7,3 +7,4 @@
 #### - Fancybox
 
 ## Demo: https://alena2020.github.io/Memory-Card-Game/
+## 🎮
