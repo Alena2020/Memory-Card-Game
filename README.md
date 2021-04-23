@@ -1,4 +1,4 @@
-# Memory-Card-Game - yчебный проект 
+# Memory-Card-Game - project
 
 ## Technologies:
 #### - HTML
